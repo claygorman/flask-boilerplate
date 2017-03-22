@@ -1,5 +1,5 @@
 from flask import Flask
-from flask.ext.cors import CORS
+from flask_cors import CORS
 
 import config
 from model.abc import db

@@ -16,4 +16,4 @@ server:
 db:
   image: postgres:9.4
   volumes:
-    - shared/data:/var/lib/postgresql/data
+    - ./shared/data:/var/lib/postgresql/data

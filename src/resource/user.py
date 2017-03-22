@@ -1,5 +1,5 @@
 from flask import jsonify
-from flask.ext.restful import Resource
+from flask_restful import Resource
 
 from model.abc import db
 from model import User

@@ -1,10 +1,9 @@
 from flask import Blueprint, jsonify, current_app
-from flask.ext.restful import Api
+from flask_restful import Api
 
 
 common_blueprint = Blueprint('common', __name__)
 common_blueprint_api = Api(common_blueprint)
-
 
 @common_blueprint.route('/routes')
 def list_routes():

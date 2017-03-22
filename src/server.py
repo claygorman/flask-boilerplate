@@ -23,6 +23,8 @@ server.register_blueprint(common_blueprint)
 from route.user import user_blueprint
 server.register_blueprint(user_blueprint)
 
+from route.test import test_blueprint
+server.register_blueprint(test_blueprint)
 
 if __name__ == '__main__':
     server.run(host=config.HOST, port=config.PORT)
